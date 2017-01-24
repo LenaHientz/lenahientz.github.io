@@ -1,40 +1,61 @@
 .kopfzeile {
-  background-color:#404143;
+  background-color: #404143;
   height: 60px;
-  width: 100%
+  width: calc(100% - 10)
   position: fixed;
-  border-bottom:10px solid white;
-
-  div.table {
-  	display: table;
-  	width: calc(100% - 10px);
-  	border: 1px solid blue;
-  	padding: 5px;
+  border-bottom: 10px solid white;
   }
 
-  div.spalte {
-  	display: table-cell;
-  	border: thin solid red;
-  	width: 200px;
-  	padding: 5px;
-  }
+.kopfzeile-content {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: medium;
+  color: white;
+	width:100%;
+  display: flex;
+  padding: 20px;
+}
+
+.leben {
+	flex: 1;
+	order:4;
+}
+
+.work {
+	flex: 1;
+	order:3;
+}
+
+.kontakt {
+	flex: 1;
+	order:2;
+}
+
+.partner {
+	flex: 1;
+	order:1;
+}
+
 
 
 .header {
   text-transform: uppercase;
   letter-spacing: 10px;
-
-    }
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  }
 
 .personal-data-title {
   text-transform: uppercase;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  letter-spacing: 2px;
   }
 
-  .personal-data-content {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
-    font-weight: bold;
+.personal-data-content {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: bold;
   }
 
 
@@ -59,7 +80,7 @@
 .profile-image {
 width: 100%;
 max-width:100%;
-float:right;
+align-items: center;
     }
 
 
@@ -69,11 +90,7 @@ h1, h2 {
   text-transform: uppercase;
   }
 
-h3 {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  }
 
 ul, ol, p {
-  font-family: Garamond, serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   }
