@@ -1,0 +1,79 @@
+.kopfzeile {
+  background-color:#404143;
+  height: 60px;
+  width: 100%
+  position: fixed;
+  border-bottom:10px solid white;
+
+  div.table {
+  	display: table;
+  	width: calc(100% - 10px);
+  	border: 1px solid blue;
+  	padding: 5px;
+  }
+
+  div.spalte {
+  	display: table-cell;
+  	border: thin solid red;
+  	width: 200px;
+  	padding: 5px;
+  }
+
+
+.header {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+
+    }
+
+.personal-data-title {
+  text-transform: uppercase;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  }
+
+  .personal-data-content {
+    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  }
+
+
+.content-left {
+ .personal-data {
+   float: left;
+   width: 50%;
+   padding-right: 20px;
+  }
+
+
+ .content {
+ .container {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px;
+   background-color: #fff;
+  }
+}
+
+.profile-image {
+width: 100%;
+max-width:100%;
+float:right;
+    }
+
+
+
+h1, h2 {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  }
+
+h3 {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  }
+
+ul, ol, p {
+  font-family: Garamond, serif;
+  }
