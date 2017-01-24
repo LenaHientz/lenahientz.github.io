@@ -2,8 +2,6 @@
   background-color: #404143;
   height: 60px;
   width: calc(100% - 10)
-  position: fixed;
-  border-bottom: 10px solid white;
   }
 
 .kopfzeile-content {
@@ -17,24 +15,32 @@
   padding: 20px;
 }
 
+a:link {
+font-family: "Avenir", Helvetica, Arial, sans-serif;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-weight: medium;
+color: white;
+}
+
 .leben {
 	flex: 1;
-	order:4;
+	order:1;
 }
 
 .work {
 	flex: 1;
-	order:3;
+	order:2;
 }
 
 .kontakt {
 	flex: 1;
-	order:2;
+	order:3;
 }
 
 .partner {
 	flex: 1;
-	order:1;
+	order:4;
 }
 
 
@@ -77,13 +83,17 @@
   }
 }
 
-.profile-image {
-width: 100%;
-max-width:100%;
-align-items: center;
+.background-image {
+max-width:100px;
+align-content: center;
+background:url(images/hintergrund_startseite.jpg);
+background:url(images/hintergrund_portrait.jpg);
     }
 
 
+.elemente {
+  width: 20px;
+  }
 
 h1, h2 {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
