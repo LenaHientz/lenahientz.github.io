@@ -1,6 +1,6 @@
 .kopfzeile {
   background-color: #282828;
-  height: 60px;
+  height: 150px;
   width: calc(100% - 10)
   }
 
@@ -16,19 +16,32 @@
 }
 
 .flex-container-startseite {
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 80em;
-  height: 40em;
+  width: 65em;
+  height: 12em;
   background-color: #282828;
   }
 
-.startseite-elemente {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.flex-item {
+  margin: 50px;
   }
 
+.flex-item2 {
+  margin-top: 5px;
+  margin: 80px;
+  }
+
+.flex-item3 {
+  margin: 5px;
+  }
+
+.row {
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  }
 
 
 a:link {
@@ -40,50 +53,6 @@ color: white;
 }
 
 
-.about1 {
-	flex: 1;
-	order:1;
-}
-
-.work1 {
-	flex: 1;
-	order:2;
-}
-
-.mail1 {
-	flex: 1;
-	order:3;
-}
-
-.colab1 {
-	flex: 1;
-	order:4;
-}
-
-
-
-
-
-
-.about2 {
-	flex: 1;
-	order:1;
-}
-
-.work2 {
-	flex: 1;
-	order:2;
-}
-
-.mail2 {
-	flex: 1;
-	order:3;
-}
-
-.colab2 {
-	flex: 1;
-	order:4;
-}
 
 
 
@@ -92,6 +61,8 @@ color: white;
   letter-spacing: 10px;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  color: #282828;
+  text-align: center;
   }
 
 .personal-data-title {
@@ -104,6 +75,8 @@ color: white;
 .personal-data-content {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  color: #282828;
+  display: flex;
   }
 
 
@@ -134,4 +107,21 @@ h1, h2 {
 
 ul, ol, p {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
+  }
+
+
+
+
+  /* work */
+
+
+  .gallery {
+
+    transform: scale(10%);
+    position: absolute;
+    margin: 0 auto;
+    padding: 5px;
+    float: left;
+    padding: 5px;
+    display: flex;
   }
