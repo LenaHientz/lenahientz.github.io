@@ -1,5 +1,5 @@
 .kopfzeile {
-  background-color: #404143;
+  background-color: #282828;
   height: 60px;
   width: calc(100% - 10)
   }
@@ -15,6 +15,22 @@
   padding: 20px;
 }
 
+.flex-container-startseite {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80em;
+  height: 40em;
+  background-color: #282828;
+  }
+
+.startseite-elemente {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+
+
 a:link {
 font-family: "Avenir", Helvetica, Arial, sans-serif;
 text-transform: uppercase;
@@ -23,22 +39,48 @@ font-weight: medium;
 color: white;
 }
 
-.leben {
+
+.about1 {
 	flex: 1;
 	order:1;
 }
 
-.work {
+.work1 {
 	flex: 1;
 	order:2;
 }
 
-.kontakt {
+.mail1 {
 	flex: 1;
 	order:3;
 }
 
-.partner {
+.colab1 {
+	flex: 1;
+	order:4;
+}
+
+
+
+
+
+
+.about2 {
+	flex: 1;
+	order:1;
+}
+
+.work2 {
+	flex: 1;
+	order:2;
+}
+
+.mail2 {
+	flex: 1;
+	order:3;
+}
+
+.colab2 {
 	flex: 1;
 	order:4;
 }
@@ -73,22 +115,11 @@ color: white;
   }
 
 
- .content {
- .container {
-   width: 80%;
-   margin-left: auto;
-   margin-right: auto;
-   padding: 30px;
-   background-color: #fff;
+.startseite {
+  margin-left: auto;
+  margin-right: auto;
   }
-}
 
-.background-image {
-max-width:100px;
-align-content: center;
-background:url(images/hintergrund_startseite.jpg);
-background:url(images/hintergrund_portrait.jpg);
-    }
 
 
 .elemente {
