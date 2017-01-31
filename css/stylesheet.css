@@ -24,6 +24,13 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+html {
+  background: url(images/hintergrund_startseite.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 .kopfzeile {
   background-color: #282828;
@@ -52,35 +59,40 @@ time, mark, audio, video {
   margin-top: 10px;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 img {
   display: block;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
   width: 100%;
-  height: auto;
+  background: #282828;
+  text-align: center;
+  clear: both;
+  height: 120px;
 }
 
-.wrapper-kopfzeile {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+.main-nav li {
+  display: inline-block;
+  margin: 10px 10px 6px 10px;
 }
 
-.box-kopfzeile {
-  width: 12%;
-  float: left;
-  padding: 10px;
-  /*border: 1px solid red;*/
-}
 
 
 /*about*/
 
-body {
-  background-image: image(images/hintergrund_portrait.png);
+html {
+  background: url(images/hintergrund_portrait.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
 
 .header {
   text-transform: uppercase;
@@ -141,16 +153,28 @@ ul, ol, p {
 
 /* work */
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
 .wrapper {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 15px;
 }
 
 .box {
   width: 33.33%;
   float: left;
-  padding: 10px;
+  padding: 15px  ;
 }
 
 
