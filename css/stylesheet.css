@@ -1,16 +1,39 @@
+/*menüleiste(n)*/
+
+
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
 .kopfzeile {
   background-color: #282828;
   height: 150px;
   width: calc(100% - 10)
-  }
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .kopfzeile-content {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: medium;
-  color: white;
-	width:100%;
   display: flex;
   padding: 20px;
 }
@@ -21,107 +44,123 @@
   margin-right: auto;
   width: 65em;
   height: 12em;
-  background-color: #282828;
-  }
-
-.flex-item {
-  margin: 50px;
-  }
-
-.flex-item2 {
-  margin-top: 5px;
-  margin: 80px;
-  }
-
-.flex-item3 {
-  margin: 5px;
-  }
+}
 
 .row {
   align-items: center;
   width: 100%;
   margin-top: 10px;
-  }
+}
 
+* {
+  box-sizing: border-box;
+}
 
-a:link {
-font-family: "Avenir", Helvetica, Arial, sans-serif;
-text-transform: uppercase;
-letter-spacing: 5px;
-font-weight: medium;
-color: white;
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.wrapper-kopfzeile {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-kopfzeile {
+  width: 12%;
+  float: left;
+  padding: 10px;
+  /*border: 1px solid red;*/
 }
 
 
+/*about*/
 
-
+body {
+  background-image: image(images/hintergrund_portrait.png);
+}
 
 .header {
   text-transform: uppercase;
   letter-spacing: 10px;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  font-size: 25px;
   color: #282828;
   text-align: center;
-  }
+  padding: 10px;
+}
 
 .personal-data-title {
   text-transform: uppercase;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
-  }
+}
 
 .personal-data-content {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #282828;
+  text-align: center;
+  align-items: center;
+}
+
+.personal-data-listen {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #282828;
   display: flex;
-  }
-
-
-.content-left {
- .personal-data {
-   float: left;
-   width: 50%;
-   padding-right: 20px;
-  }
+  list-style: none;
+}
 
 
 .startseite {
   margin-left: auto;
   margin-right: auto;
-  }
-
-
+}
 
 .elemente {
   width: 20px;
-  }
+}
 
 h1, h2 {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  }
-
+}
 
 ul, ol, p {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  }
+  font-size: 10px;
+  list-style: none;
+}
 
 
 
+/* work */
 
-  /* work */
+.wrapper {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box {
+  width: 33.33%;
+  float: left;
+  padding: 10px;
+}
 
 
-  .gallery {
+/*mailbox=kontakt*/
 
-    transform: scale(10%);
-    position: absolute;
-    margin: 0 auto;
-    padding: 5px;
-    float: left;
-    padding: 5px;
-    display: flex;
-  }
+.mailbox {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65em;
+  height: 12em;
+  background-color: #282828;
+}
