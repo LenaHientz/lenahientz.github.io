@@ -85,47 +85,85 @@ ul, li {
 
 /*about*/
 
-html {
+/*html {
   background: url(images/hintergrund_portrait.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+
+.bg {
+background-image: url(images/hintergrund_portrait.png);
+/*background-color:#c9c9c9;*/
+width:800px;height:200px;
+padding:40px;
+
 }
 
 
-.header {
-  text-transform: uppercase;
-  letter-spacing: 10px;
+/*.header {
+  text-transform: lowercase;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: bolder;
+  font-size: 300%;
   color: #282828;
   text-align: center;
-  padding: 10px;
-}
+}*/
 
-.personal-data-title {
+/*.personal-data-title {
   text-transform: uppercase;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
   letter-spacing: 2px;
-}
+}*/
 
 .personal-data-content {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #282828;
-  text-align: center;
-  align-items: center;
+  text-align: left;;
+  font-size: 100%;
+  text-transform: lowercase;
 }
 
 .personal-data-listen {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-weight: normal;
   color: #282828;
   display: flex;
   list-style: none;
+  text-align: left;
+  font-size: 100%;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: lowercase;
+}
+
+.lebensweg {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: #282828;
+  display: flex;
+  list-style: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 400%;
+  text-transform: lowercase;
+}
+
+ul, ol, p {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 100% ;
+  list-style: none;
+  text-transform: lowercase;
+}
+
+.themen  {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  text-transform: lowercase;
+  font-weight: bolder;
+
 }
 
 
@@ -137,18 +175,6 @@ html {
 .elemente {
   width: 20px;
 }
-
-h1, h2 {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-}
-
-ul, ol, p {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 10px;
-  list-style: none;
-}
-
 
 
 /* work */
