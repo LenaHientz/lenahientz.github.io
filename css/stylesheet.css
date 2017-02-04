@@ -46,23 +46,12 @@ html {
   padding: 20px;
 }
 
-/*.flex-container-startseite {
-  margin-left: auto;
-  margin-right: auto;
-  width: 65em;
-  height: 12em;
-  position: absolute;
-} */
-
 .row {
   align-items: center;
   width: 100%;
   margin-top: 10px;
 }
 
-/*img {
-  display: block;
-}*/
 
 ul, li {
   margin: 0;
@@ -82,7 +71,30 @@ ul, li {
   margin: 10px 10px 6px 10px;
 }
 
+.hintergrundbild-startseite {
+  position: relative;
+}
 
+.footer {
+  bottom:0px;
+  position: absolute;
+  background: #000000;
+  opacity: 0.7;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  height: 6%;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #282828;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*about*/
 
@@ -96,28 +108,9 @@ ul, li {
 
 .bg {
 background-image: url(images/hintergrund_portrait.png);
-/*background-color:#c9c9c9;*/
 width:800px;height:200px;
 padding:40px;
-
 }
-
-
-/*.header {
-  text-transform: lowercase;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-weight: bolder;
-  font-size: 300%;
-  color: #282828;
-  text-align: center;
-}*/
-
-/*.personal-data-title {
-  text-transform: uppercase;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  letter-spacing: 2px;
-}*/
 
 .personal-data-content {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -207,11 +200,72 @@ img {
 
 /*mailbox=kontakt*/
 
-.mailbox {
-  margin-top: 80px;
+.kontaktformular-main  {
+  position: absolute;
+}
+
+.kontaktformular-boxen {
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
-  width: 65em;
-  height: 12em;
-  background-color: #282828;
+  margin-top: 0px;
+  position: relative;
+}
+
+.kontaktbox1 {
+  width: 65%;
+  height: 10%;
+  float: left;
+  background-color: #ffffff;
+  border: 2px solid #282828;
+  opacity: 0.5;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #282828;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontaktbox2 {
+  width: 33%;
+  height: 10%;
+  float: right;
+  border: 2px solid #F3E600;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #F3E600;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontaktbox3 {
+  width: 100%;
+  height: 70%;
+  float: left;
+  background-color: #ffffff;
+  border: 2px solid #282828;
+  opacity: 0.5;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #282828;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 120%;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
