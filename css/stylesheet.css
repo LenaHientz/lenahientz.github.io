@@ -68,7 +68,7 @@ ul, li {
   width: 30%;
   height: 30%;
   left: 35%;
-  top: 25%;
+  top: 20%;
 }
 
 .startbild:hover {
@@ -89,6 +89,7 @@ ul, li {
 .footer {
   bottom:0px;
   position: absolute;
+  position: fixed;
   background: #000000;
   opacity: 0.7;
   width: 100%;
@@ -100,7 +101,7 @@ ul, li {
   font-weight: bold;
   color: #282828;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 100%;
+  font-size: 120%;
   letter-spacing: 3px;
   display: flex;
   align-items: center;
@@ -388,4 +389,91 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/*colab*/
+
+.introduction-colab {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 250%;
+  letter-spacing: 2px;
+  line-height: 130%;
+  font-weight: bold;
+  text-align: center;
+  color: #282828;
+  background-color: #ffffff;
+  opacity: 0.6;
+  background-image: url(images/hintergrundbild_about.jpg);
+  position: absolute;
+  width: 80%;
+  height: 20%;
+  left: 10%;
+  top: 11%;
+}
+
+.colaboration1 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 400%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  left: 10%;
+  top: 45%;
+  border: 4px solid #E8C100;
+  color: #E8C100;
+}
+
+.colaboration2 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 400%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  left: 10%;
+  top: 58%;
+  border: 4px solid #E8C100;
+  color: #E8C100;
+}
+
+.colaboration3 {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: column;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 400%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  width: 80%;
+  height: 10%;
+  left: 10%;
+  top: 70%;
+  border: 4px solid #E8C100;
+  color: #E8C100;
 }
