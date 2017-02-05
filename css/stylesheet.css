@@ -121,7 +121,7 @@ ul, li {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-size: 250%;
   letter-spacing: 2px;
-  line-height: 130%;
+  line-height: 150%;
   font-weight: bold;
   text-align: center;
   color: #282828;
@@ -130,7 +130,7 @@ ul, li {
   background-image: url(images/hintergrundbild_about.jpg);
   position: absolute;
   width: 80%;
-  height: 40%;
+  height: 42%;
   left: 10%;
   top: 11%;
 }
@@ -151,19 +151,19 @@ ul, li {
   width: 80%;
   height: 10%;
   left: 10%;
-  top: 61%;
-  border: 4px solid #E8C100;
-  color: #E8C100;
+  top: 62%;
+  border: 4px solid #F3E600;
+  color: #F3E600;
 }
 
 a:link {
   text-decoration: none;
-  color: #E8C100;
+  color: #F3E600;
 }
 
 a:visited {
   text-decoration: none;
-  color: #E8C100;
+  color: #F3E600;
 }
 
 a:active {
@@ -177,7 +177,7 @@ a:hover {
 }
 
 .more-info:hover {
-  background-color: #E8C100;
+  background-color: #F3E600;
   color: #282828;
   border: 4px solid #282828;
 }
@@ -337,54 +337,64 @@ img {
   width: 65%;
   height: 10%;
   float: left;
-  background-color: #ffffff;
-  border: 2px solid #282828;
-  opacity: 0.5;
-  margin-top: 60px;
-  text-align: center;
-  text-transform: lowercase;
-  font-weight: bold;
-  color: #282828;
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 120%;
-  letter-spacing: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.kontaktbox2 {
-  width: 33%;
-  height: 10%;
-  float: right;
-  border: 2px solid #F3E600;
+  border: 3px solid #F3E600;
   margin-top: 60px;
   text-align: center;
   text-transform: lowercase;
   font-weight: bold;
   color: #F3E600;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 120%;
+  font-size: 220%;
   letter-spacing: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.kontaktbox1:hover {
+  background-color: #ffffff;
+  color: #282828;
+  border: 3px solid #F3E600;
+  opacity: 0.6;
+}
+
+.kontaktbox2 {
+  width: 33%;
+  height: 10%;
+  float: right;
+  border: 3px solid #F3E600;
+  margin-top: 60px;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: bold;
+  color: #F3E600;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 220%;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kontaktbox2:hover {
+  background-color: #F3E600;
+  color: #282828;
+  border: 3px solid #282828;
+}
+
 .kontaktbox3 {
   width: 100%;
   height: 70%;
   float: left;
-  background-color: #ffffff;
-  border: 2px solid #282828;
-  opacity: 0.5;
   margin-top: 10px;
   text-align: center;
   text-transform: lowercase;
   font-weight: bold;
   color: #282828;
+  background-color: #ffffff;
+  opacity: 0.5;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 120%;
+  font-size: 250%;
   letter-spacing: 3px;
   display: flex;
   align-items: center;
@@ -425,7 +435,7 @@ img {
   margin-right: auto;
   flex-direction: column;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 400%;
+  font-size: 250%;
   letter-spacing: 2px;
   font-weight: bold;
   text-align: center;
@@ -434,8 +444,8 @@ img {
   height: 10%;
   left: 10%;
   top: 45%;
-  border: 4px solid #E8C100;
-  color: #E8C100;
+  border: 4px solid #F3E600;
+  color: #F3E600;
 }
 
 .colaboration2 {
@@ -445,7 +455,7 @@ img {
   margin-right: auto;
   flex-direction: column;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 400%;
+  font-size: 250%;
   letter-spacing: 2px;
   font-weight: bold;
   text-align: center;
@@ -454,8 +464,8 @@ img {
   height: 10%;
   left: 10%;
   top: 58%;
-  border: 4px solid #E8C100;
-  color: #E8C100;
+  border: 4px solid #F3E600;
+  color: #F3E600;
 }
 
 .colaboration3 {
@@ -465,7 +475,7 @@ img {
   margin-right: auto;
   flex-direction: column;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 400%;
+  font-size: 250%;
   letter-spacing: 2px;
   font-weight: bold;
   text-align: center;
@@ -474,6 +484,44 @@ img {
   height: 10%;
   left: 10%;
   top: 70%;
-  border: 4px solid #E8C100;
-  color: #E8C100;
+  border: 4px solid #F3E600;
+  color: #F3E600;
+}
+
+a:link {
+  text-decoration: none;
+  color: #F3E600;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #F3E600;
+}
+
+a:active {
+  text-decoration: none;
+  color: #282828;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #282828;
+}
+
+.colaboration1:hover {
+  background-color: #F3E600;
+  color: #282828;
+  border: 4px solid #282828;
+}
+
+.colaboration2:hover {
+  background-color: #F3E600;
+  color: #282828;
+  border: 4px solid #282828;
+}
+
+.colaboration3:hover {
+  background-color: #F3E600;
+  color: #282828;
+  border: 4px solid #282828;
 }
