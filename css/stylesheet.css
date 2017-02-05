@@ -109,42 +109,32 @@ ul, li {
 
 /*about*/
 
-.lebenslauf {
-  width: 25%;
+.introduction {
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-}
-
-.portrait {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 2px solid #282828;
-}
-
-ul, ol, p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 2%;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
-  font-size: 100% ;
-  list-style: none;
-  text-transform: lowercase;
+  font-size: 250%;
+  letter-spacing: 2px;
+  line-height: 130%;
+  font-weight: bold;
+  text-align: center;
+  color: #282828;
+  background-color: #ffffff;
+  opacity: 0.6;
+  background-image: url(images/hintergrundbild_about.jpg);
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  left: 10%;
+  top: 15%;
 }
 
-.startseite {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.elemente {
-  width: 20px;
+.hintergrundbild-about {
 }
 
 
