@@ -1,0 +1,96 @@
+HTML
+
+<div display: flex; class="personal-data-content">
+
+<div class="personal-data-title">
+  <div>About</div>
+  <div class="bg"><img src="images/hintergrund_portrait.png" alt="Portrait"></div>
+</div>
+
+<div class="personal-data-listen">
+    <div class="personal-data-content">
+      Name: Lena Hientz<br>
+      Anschrift: Berlin<br>
+      Geburtstag: Mai 1989<br>
+      Geburtsort: Gifhorn<br>
+      </div>
+
+    <div class="lebensweg">
+    <span><div class="themen">Bildungsweg</div>
+    <ul>
+     <li>06/08 Abitur Lessinggymnasium Braunschweig</li><br>
+     <li>08/08-08/09 FSJ LG Nord Berlin</li><br>
+     <li>08/10-07/13 Berufsausbildung Grafikdesign esb mediencollege Berlin</li><br>
+     <li>06/15-11/15 Weiterbildung IBB Berlin</li><br>
+     <li>seit 10/16 Studium Kommunikationsdesign HTW Berlin</li><br>
+    </ul></span>
+
+    <span><div class="themen">Berufsleben</div>
+    <ul>
+     <li>10/09-06/10 Deutsche Post AG</li><br>
+     <li>12/13-05/15 Grafikerin eu-health</li><br>
+     <li>seit 06/16 Grafikerin bei Animal Equality</li><br>
+    </ul></span>
+    </div>
+  </div>
+</div>
+
+
+CSS
+
+.bg {
+  background-image: url(images/hintergrund_portrait.png);
+  width:600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.personal-data-title {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 500%;
+  text-transform: lowercase;
+  font-weight: bolder;
+  position: absolute;
+}
+
+.themen  {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  text-transform: lowercase;
+  font-weight: bolder;
+}
+
+.personal-data-content {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #282828;
+  text-align: left;;
+  font-size: 100%;
+  text-transform: lowercase;
+}
+
+.personal-data-listen {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: #282828;
+  display: flex;
+  list-style: none;
+  text-align: left;
+  font-size: 100%;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: lowercase;
+}
+
+.lebensweg {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  color: #282828;
+  display: flex;
+  list-style: none;
+  text-align: left;
+  font-weight: bold;
+  font-size: 400%;
+  text-transform: lowercase;
+}

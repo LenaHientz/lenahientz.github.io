@@ -1,0 +1,63 @@
+HTML
+
+<div class="fähigkeiten">
+ <div class="fähigkeiten1"><img src="images/lebenslauf.png"></div>
+ <div class="fähigkeiten2"><img src="images/softwareskills.png"></div>
+ <div class="fähigkeiten3"><img src="images/skills.png"></div>
+</div>
+
+
+
+CSS
+
+.fähigkeiten {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 10%;
+  left: 10%;
+  top: 72%;
+}
+
+.fähigkeiten1 {
+  width: 12%;
+  padding: 10px;
+}
+
+.fähigkeiten1:hover {
+  width: 15%;
+  float: left;
+  padding: 10px;
+  opacity: 0.6;
+}
+
+.fähigkeiten2 {
+  width: 12%;
+  float: left;
+  padding: 10px;
+}
+
+.fähigkeiten2:hover {
+  width: 15%;
+  float: left;
+  padding: 10px;
+  opacity: 0.6;
+}
+
+.fähigkeiten3 {
+  width: 12%;
+  float: left;
+  padding: 10px;
+}
+
+.fähigkeiten3:hover {
+  width: 15%;
+  float: left;
+  padding: 10px;
+  opacity: 0.6;
+}
